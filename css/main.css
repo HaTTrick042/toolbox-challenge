@@ -1,10 +1,67 @@
-
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
 
 
 #game-board img {
     width: 25%;
-    height: 25%;
+    height: 20%;
     padding: 5px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
+body {
+    font-family: 'Indie Flower', Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-image: url(../img/style/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 4%;
+}
+
+#start-game {
+    font-family: 'Indie Flower', Helvetica, sans-serif;
+    width: 15em;
+    height: 2em;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: #c9302c;
+}
+
+ul {
+    padding: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.container {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+footer {
+    position: fixed;
+    font-size: 16px;
+    bottom: 1px;
+    background-color: #0457AC;
+    width: 98.5%;
+    height: 3em;
+    text-align: left;
+    margin-right: 5%;
+}
